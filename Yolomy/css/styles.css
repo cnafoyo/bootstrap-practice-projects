@@ -1,0 +1,19 @@
+
+.nav{
+  background-color: burlywood;
+  width:100%;
+  height: 60px;
+}
+.button{
+  float: right;
+  background-color: maroon;
+  color :white;
+
+}
+.box{
+  width:500px;
+  height:500px;
+  border:2px
+  margin:20px auto;
+
+}
