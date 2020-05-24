@@ -1,19 +1,54 @@
 
 .nav{
   background-color: burlywood;
-  width:100%;
-  height: 60px;
+  padding-left: 100px;
+  padding-right:100px;
+  height: 70px;
+  width: 100%;
 }
-.button{
-  float: right;
-  background-color: maroon;
-  color :white;
 
-}
 .box{
   width:500px;
   height:500px;
   border:2px
   margin:20px auto;
+  border-bottom: 1px solid grey;
+}
+.div1 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid burlywood;
+  box-sizing: border-box;
+}
 
+.div2 {
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.list{
+  float: right;
+  list-style-type: none;
+  display:flex;
+  padding: 30px;
+  inline-block :20PX;
+
+}
+.promotion{
+  width:100%;
+  height:70px;
+  background:dimgray;
+  text-align: center;
+  font-family:sans-serif;
+  padding-left: 200px;
+  padding-right:200px;
+  padding-top: 20px;
+}
+
+.bottom{
+  background-color: #2a2a2a;
+  color:white;
+}
+.content{
+  padding-top:200px
 }
